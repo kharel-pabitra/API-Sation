@@ -1,0 +1,12 @@
+{
+  "name": "api-console",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "dev": "npm -w @apic/ui run dev",
+    "build": "npm -w @apic/ui run build",
+    "test": "npm -w @apic/core run test",
+    "typecheck": "npm -w @apic/core run typecheck && npm -w @apic/ui run typecheck"
+  }
+}
